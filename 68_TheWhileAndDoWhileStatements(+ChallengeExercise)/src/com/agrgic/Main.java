@@ -5,6 +5,37 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // while loop example
+        int count = 1;
+        while (count != 6) {
+            System.out.println("Correct value is " + count);
+            count++;
+        } // while
+
+        // for loop equivalent to while loop above
+        for (count = 1; count < 6; count++) {
+            System.out.println("Count value is " + count);
+        } // while
+
+        // while loop, another example
+        count = 1;
+        while (true) {
+            if (count == 6)
+                break;
+            System.out.println("While loop value " + count);
+            count++;
+        } // while
+
+        // do while loop example
+        count = 6;
+        do {
+            System.out.println("count value was " + count);
+            count++;
+
+            if (count > 100)
+                break;
+        } while (count != 6);
+
         // Challenge part of the video
 //        System.out.println(isEvenNumber(1));
 //        System.out.println(isEvenNumber(2));
